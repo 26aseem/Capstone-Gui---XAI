@@ -1,6 +1,5 @@
 streamlit
 statsmodels
-warnings
 seaborn
 lime
 sklearn

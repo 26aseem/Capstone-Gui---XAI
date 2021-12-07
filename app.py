@@ -13,8 +13,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # Set Recursion Limit
 import sys
 sys.setrecursionlimit(40000)
-import warnings                                  
-warnings.filterwarnings('ignore')
 import re  
 import nltk  
 import regex as re
