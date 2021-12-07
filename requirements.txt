@@ -3,7 +3,5 @@ statsmodels
 seaborn
 lime
 sklearn
-string
-re
 nltk
 lightgbm
