@@ -16,10 +16,10 @@ sys.setrecursionlimit(40000)
 import re  
 import nltk  
 import regex as re
-#nltk.download('stopwords')  
+nltk.download('stopwords')  
 from nltk.corpus import stopwords  
-#nltk.download('punkt')
-#nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('wordnet')
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import accuracy_score
 import lightgbm as lgb
