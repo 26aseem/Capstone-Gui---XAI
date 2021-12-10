@@ -194,3 +194,38 @@ st.write('**Tweet:**', X[h])
 st.write('**Label:**', Y[h])
 
 components.html(html, height=800)
+
+# Footer
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+footer {visibility: hidden;}
+
+.footer {
+margin:0;
+height:5px;
+position:relative;
+top:140px;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed with <span style='color:red;'>❤</span> by <a style='text-align: center;' href="https://github.com/26aseem" target="_blank">Aseem Khullar</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
